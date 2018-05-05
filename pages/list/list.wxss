@@ -1,0 +1,32 @@
+/* pages/list/list.wxss */
+.container {
+  font-size: 40rpx;
+}
+
+.diaries {
+  display: block;
+  height: 120rpx;
+  border-bottom: 0.5rpx solid #D3D3D3;
+  padding: 10rpx;
+  margin: 10rpx;
+}
+
+.content {
+  height: 60rpx;
+  overflow: hidden;
+  line-height: 60rpx;
+}
+
+.date {
+  line-height: 60rpx;
+  font-size: 30rpx;
+  color: #D3D3D3;
+}
+.add {
+  width: 165rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50rpx;
+  right: 50rpx;
+}

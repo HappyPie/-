@@ -1,0 +1,8 @@
+<!--pages/list/list.wxml-->
+<scroll-view class='container'>
+  <view wx:for='{{diaries}}' class='diaries' data-id='{{item.id}}' bindtap='showDetail'>
+    <view class='content'>{{item.content}}</view>
+    <view class='date'>{{item.date}}</view>
+  </view>
+</scroll-view>
+<image class='add' src='{{src}}' bindtap='newDiary'></image>

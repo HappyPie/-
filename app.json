@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/content/content"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小狗の日记",
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

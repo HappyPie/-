@@ -1,0 +1,4 @@
+<!--pages/new/new.wxml-->
+<view class='container'>
+  <textarea class='content' auto-focus='true' adjust-position='true' auto-height='true' maxlength= '-1' value='{{diary.content}}' bindinput='changeContent'/>
+</view>
